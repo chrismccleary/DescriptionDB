@@ -1,0 +1,24 @@
+# ─── Database runtime data ───────────────────────────────────────────
+/mysql-data/
+
+# ─── Environment files ────────────────────────────────────────────────
+.env
+
+# ─── IDE / editor folders ────────────────────────────────────────────
+.vscode/
+.idea/
+
+# ─── OS junk ─────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# ─── Logs & temp files ────────────────────────────────────────────────
+*.log
+*.tmp
+
+# ─── Other build artifacts (if you ever add them) ────────────────────
+# bin/
+# obj/
