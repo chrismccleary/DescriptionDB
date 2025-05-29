@@ -1,7 +1,7 @@
 services:
   mysql:
     image: mysql:8.0
-    container_name: licenses-mysql
+    container_name: description-mysql
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: RootPass123!
@@ -12,4 +12,4 @@ services:
       - ./mysql-data:/var/lib/mysql
       - ./mysql-init:/docker-entrypoint-initdb.d:ro
     ports:
-      - "3307:3307"
+      - "3307:3306"
