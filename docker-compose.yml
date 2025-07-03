@@ -1,11 +1,11 @@
 services:
   mysql:
     image: mysql:8.0
-    container_name: description-mysql
+    container_name: campaign-module-mysql
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: RootPass123!
-      MYSQL_DATABASE:     description_db
+      MYSQL_DATABASE:     campaign_module_db
       MYSQL_USER:         Desuser
       MYSQL_PASSWORD:     DesPassw0rd!
     volumes:
